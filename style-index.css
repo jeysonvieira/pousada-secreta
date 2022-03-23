@@ -1,0 +1,263 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Areia movediça:wght@300 & display=swap');
+
+
+*{
+    font-family: 'Quicksand', sem serifa;
+    margin: 0px;
+}
+
+body h1, body h2{
+    font-size: 1.6em;
+}
+
+body p{
+    font-size: 1.3em;
+}
+
+body{
+    height: 100%;
+}
+
+
+header{
+    height: 80px;
+}
+
+
+header section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+header #logo span{
+    color: #01A7E2;
+
+}
+
+header #menu nav{
+    display: inline;
+    margin-right: 15px;
+}
+
+header #menu nav a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    
+}
+
+main #sec1{
+    height: 800px;
+}
+
+
+#sec1{
+    background-image: url(imagens/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec1 #texto{
+    color: white;
+    background-color: #03b3a7c0;
+    border: 1px solid white;
+    border-radius: 4px;
+    height: 300px;
+    width: 700px;
+    font-size: 1.9em;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#sec1 #texto h1{
+    font-size: 2.3em;
+    margin-top: 40px;
+    
+}
+
+#sec1 #texto p{
+    font-size: 1.1em;
+    margin-bottom: 60px;
+    
+}
+
+main #sec2{
+    height: 750px;
+}
+
+
+
+main #sec2 #bemvindo{
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#bemvindo h1{
+    margin-top: 30px ;
+}
+
+#bemvindo p{
+    margin-bottom: 13px;
+}
+
+
+#sec2 #card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 55px;
+}
+
+.quartos{
+    margin-bottom: 0px;
+    height: 400px;
+    width: 450px;
+    margin-right: 50px;
+}
+
+.quartos img{
+    width: 450px;
+    height: 278px;
+    
+}
+
+
+#sec2 #card h2{
+    text-align: center;
+    margin: 25px 0px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #26B790;
+}
+
+#sec2 #card a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#sec3 #titulo{
+    text-align: center;
+    height: 130px;
+}
+
+#sec3 #titulo h2{
+    margin-bottom: 28px;
+}
+
+#sec4{
+    margin-bottom: 100px;
+}
+
+
+#sec4 #titulo2{
+    height: 120px;
+    text-align: center;
+    margin: 25px;
+}
+
+#sec4 #titulo2 h1{
+    margin: 35px 0px;
+}
+
+#sec4 #divsobre{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec4 #divsobre .sobre{
+    width: 700px;
+    height: 180px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-left: 3px solid #26B790;
+
+}
+
+#sec4 .img img{
+    height: 150px;
+    width: 150px;
+}
+
+#sec4 .img{
+    height: 150px;
+    width: 150px;
+    border: 0.5px solid black;
+}
+
+#sec4 #divsobre .sobre h3{
+    padding-bottom: 30px;
+}
+
+
+footer{
+    background-color: #49997C;
+    margin: 0px auto -10px auto;
+    padding: 40px 0px;
+    color: white;
+
+}
+
+footer section{
+    width: 1600px;
+    margin: 0px auto;
+    padding-bottom: 35px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid #2d5c4b;
+}
+
+footer .rodape{
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+footer .rodape a{
+    text-decoration: none;
+    color: white;
+}
+
+footer .rodape img{
+    width: 35px;
+    height: 35px;
+    padding-right: 20px;
+}
+
+footer #copy{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 0px;
+}
+
+
+
