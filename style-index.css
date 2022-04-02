@@ -121,7 +121,8 @@ main #sec2 #bemvindo{
 #sec2 #card{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    width: 100%;
+    justify-content: space-around;
     align-items: center;
     flex-grow: 1;
     margin-top: 55px;
@@ -130,12 +131,12 @@ main #sec2 #bemvindo{
 .quartos{
     margin-bottom: 0px;
     height: 400px;
-    width: 450px;
-    margin-right: 50px;
+    width: 400px;
+    
 }
 
 .quartos img{
-    width: 450px;
+    width: 400px;
     height: 278px;
     
 }
@@ -224,7 +225,7 @@ footer{
 }
 
 footer section{
-    width: 1600px;
+    width: 100%;
     margin: 0px auto;
     padding-bottom: 35px;
     display: flex;
@@ -236,10 +237,12 @@ footer section{
 
 footer .rodape{
     width: 300px;
-    padding: 10px;
+    height: 25px;
+    padding: 0px 15px 10px 15px;
+    margin-top: 0px;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 footer .rodape a{
@@ -255,9 +258,264 @@ footer .rodape img{
 
 footer #copy{
     text-align: center;
-    padding-top: 35px;
+    padding-top: 20px;
     padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 10px;
 }
 
 
+@media (max-width: 1610px){
+    #sec4 .img img{
+        width: 120px;
+        height: 120px;
+    }
 
+    #sec4 .img{
+        width: 120px;
+        height: 120px;
+    }
+
+    #sec4 #divsobre .sobre{
+        width: 420px;
+    }
+
+    #sec4 .sobre .texto{
+        width: 250px;
+        font-size: 0.9em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 0px;
+        
+    }
+
+    #sec4 .sobre .texto h3{
+        font-size: 1.3em;
+    }
+}
+
+
+@media (max-width: 1340px){
+    footer section .rodape{
+        font-size: 0.8em;
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
+
+    @media (max-width: 1250px){
+        #sec2 #card img, #sec2 #card .quartos {
+            width: 300px;
+            height: 260px;
+            font-size: 0.8em;
+        }
+    }
+}
+
+@media (max-width: 1050px){
+    #sec4 .img img{
+        height: 100px;
+        width: 100px;
+    }
+
+    #sec4 .img{
+        height: 100px;
+        width: 100px;
+    }
+
+    #sec4 #divsobre .sobre{
+        width: 350px;
+        font-size: 0.9em;
+    }
+
+    #sec4 .sobre .texto{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 0px;
+        
+    }
+
+    #sec4 #divsobre .sobre h3{
+        padding-bottom: 10px;
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 930px){
+    #sec2 #card img, #sec2 #card .quartos {
+        width: 200px;
+        height: 160px;
+        font-size: 0.6em;
+    }
+
+    main #sec1{
+        height: 550px;
+    }
+
+    main #sec2{
+        height: 550px;
+    }
+}
+
+
+@media (max-width: 740px){
+    #sec1 #texto{
+        height: 300px;
+        width: 95vw;
+        font-size: 1.4em;
+    }
+
+    footer #oculto{
+        display: none;
+    }
+}
+
+
+@media (max-width: 620px){
+    #sec2 #card, #sec2 #card .quartos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #sec2 #card .quartos{
+        height: 200px;
+    }
+
+    main #sec2{
+        height: 870px;
+    }
+}
+
+
+@media (max-width: 620px){
+    footer section .rodape{
+        width: 110px;
+        font-size: 0.6em;
+        margin-bottom: 10px;
+    }
+
+    footer #copy{
+        font-size: 0.9em;
+    }
+}
+
+
+@media (max-width: 375px){
+    header #logo, header #menu{
+        font-size: 0.7em;
+    }
+
+    header{
+        height: 65px;
+    }
+
+    header section{
+        padding-top: 20px;
+    }
+
+    main #sec1{
+        height: 350px;
+    }
+
+    #sec1 #texto{
+        height: 150px;
+        font-size: 1em;
+    }
+
+
+    main #sec2{
+        height: 830px;
+    }
+
+    main #sec2 #bemvindo{
+        height: 140px;
+        font-size: 0.8em;
+    }
+    
+    main #sec2 #bemvindo h1{
+        padding-bottom: 13px;
+    }
+
+    main #sec4 #titulo2{
+        font-size: 0.8em;
+    }
+
+
+    #sec4 .img img{
+        height: 150px;
+        width: 250px;
+    }
+
+    #sec4 .img{
+        height: 150px;
+        width: 250px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    #sec4 #divsobre .sobre{
+        width: 95vw;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #sec4 .sobre .texto{
+        width: 300px;
+        font-size: 0.9em;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 3px; 
+        padding-left: 5px;
+        margin-left: 35px; 
+    }
+
+    #sec4 #divsobre .sobre h3{
+        padding-bottom: 10px;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    #sec4{
+        margin-bottom: 40px;
+    }
+
+
+    #sec4 #divsobre .sobre{
+        height: 100%;
+        margin-right: 50px;
+        margin-bottom: 30px;
+        padding: 10px;
+    
+    }
+
+    footer section{
+        flex-flow: column nowrap;
+        padding-bottom: 10px;      
+    }
+
+
+    footer .rodape{
+        width: 95vw;
+        height: 25px;
+        padding: 0px 15px 10px 15px;
+        margin-top: 0px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+    }
+
+    footer #copy{
+        font-size: 0.8em;
+        height: 5px;
+        padding-top: 13px;
+    }
+}

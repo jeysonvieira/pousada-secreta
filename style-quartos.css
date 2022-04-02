@@ -148,20 +148,23 @@ footer{
 
 }
 
+
 footer section{
-    width: 1600px;
+    width: 100%;
     margin: 0px auto;
     padding-bottom: 35px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    align-items: center;
     border-bottom: 3px solid #2d5c4b;
+    align-items: center;
 }
 
 footer .rodape{
     width: 300px;
-    padding: 10px;
+    height: 25px;
+    padding: 0px 15px 10px 15px;
+    margin-top: 0px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -180,6 +183,8 @@ footer .rodape img{
 
 footer #copy{
     text-align: center;
-    padding-top: 35px;
+    padding-top: 20px;
     padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 10px;
 }
