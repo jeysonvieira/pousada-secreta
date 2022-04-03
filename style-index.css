@@ -403,6 +403,35 @@ footer #copy{
     }
 }
 
+@media (max-width: 440px){
+    footer section{
+        flex-flow: column nowrap;
+        padding-bottom: 10px;      
+    }
+
+
+    footer .rodape{
+        width: 95vw;
+        height: 25px;
+        padding: 0px 15px 10px 15px;
+        margin-top: 0px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+    }
+
+    footer #copy{
+        font-size: 0.8em;
+        height: 5px;
+        padding-top: 13px;
+    }
+
+    #sec1 #texto{
+        font-size: 1.1em;
+        height: 230px;
+    }
+}
+
 
 @media (max-width: 375px){
     header #logo, header #menu{
@@ -497,25 +526,5 @@ footer #copy{
     
     }
 
-    footer section{
-        flex-flow: column nowrap;
-        padding-bottom: 10px;      
-    }
-
-
-    footer .rodape{
-        width: 95vw;
-        height: 25px;
-        padding: 0px 15px 10px 15px;
-        margin-top: 0px;
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: space-around;
-    }
-
-    footer #copy{
-        font-size: 0.8em;
-        height: 5px;
-        padding-top: 13px;
     }
 }
