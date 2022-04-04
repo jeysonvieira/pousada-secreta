@@ -400,6 +400,14 @@ footer #copy{
     }
 }
 
+
+@media (max-width: 470px){
+    #sec4 #divsobre .sobre{
+        border-left: none;
+        border-bottom: 3px solid #26B790;
+    }
+}
+
 @media (max-width: 440px){
 
     header #logo, header #menu{

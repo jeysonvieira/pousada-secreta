@@ -23,13 +23,11 @@ body{
 
 header{
     height: 80px;
-    background-color: rgba(128, 128, 128, 0.397);
 }
 
 header section{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
     padding-top: 30px;
@@ -43,7 +41,7 @@ header #logo span{
 
 header #menu nav{
     display: inline;
-    margin-right: 15px;
+    margin-right: 30px;
 }
 
 header #menu nav a{
@@ -304,3 +302,103 @@ footer #copy{
     }
 
 }
+
+@media (max-width: 450px){
+
+    main .img img{
+        width: 170px;
+        height: 100px;
+        margin-right: 5px;
+    }
+
+    main .titulo h1{
+        font-size: 1.4em;
+        padding-bottom: 20px;
+    }
+    
+    main .titulo p{
+        font-size: 1em;
+    }
+
+    main .titulo{
+        height: 90px;
+    }
+
+    main section .sobre ul{
+        font-size: 0.9em;
+    }
+
+    section .sobre ul li{
+        width: 180px;
+    }
+
+
+    header{
+        height: 65px;
+    }
+    
+    header section{
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 20px;
+    }
+    
+    header #menu nav{
+        margin-right: 10px;
+    }
+    
+    header #menu nav a{
+        font-size: 1em;
+    }
+
+    header #logo h2{
+        font-size: 1.3em;
+    }
+
+
+    footer section{
+        flex-flow: column nowrap;
+        padding-bottom: 10px;      
+    }
+
+
+    footer .rodape{
+        width: 95vw;
+        height: 25px;
+        padding: 0px 15px 10px 15px;
+        margin-top: 0px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+    }
+
+    footer #copy{
+        font-size: 0.8em;
+        height: 5px;
+        padding-top: 13px;
+    }
+}
+
+
+@media (max-width: 375px){
+
+    main .img{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+    }
+
+    main .img img{
+        margin-top: 20px;
+    }
+
+    header #logo, header #menu{
+        font-size: 0.7em;
+    }
+
+    header section{
+        padding-top: 20px;
+    }
+}
+
