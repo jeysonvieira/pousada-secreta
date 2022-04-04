@@ -388,10 +388,7 @@ footer #copy{
     main #sec2{
         height: 870px;
     }
-}
 
-
-@media (max-width: 620px){
     footer section .rodape{
         width: 110px;
         font-size: 0.6em;
@@ -404,6 +401,11 @@ footer #copy{
 }
 
 @media (max-width: 440px){
+
+    header #logo, header #menu{
+        font-size: 0.7em;
+    }
+
     footer section{
         flex-flow: column nowrap;
         padding-bottom: 10px;      
@@ -524,7 +526,5 @@ footer #copy{
         margin-bottom: 30px;
         padding: 10px;
     
-    }
-
     }
 }
